@@ -25,13 +25,13 @@ Ne pas mettre la configuration Firebase directement dans le code pour éviter de
 Créer un fichier `.env.local` à la racine du projet avec les variables d'environnement :
 
 ```env
-VITE_FIREBASE_API_KEY=ta_api_key
-VITE_FIREBASE_AUTH_DOMAIN=ton_projet.firebaseapp.com
-VITE_FIREBASE_PROJECT_ID=ton_projet
-VITE_FIREBASE_STORAGE_BUCKET=ton_projet.appspot.com
-VITE_FIREBASE_MESSAGING_SENDER_ID=ton_messaging_sender_id
-VITE_FIREBASE_APP_ID=ton_app_id
-VITE_FIREBASE_MEASUREMENT_ID=ton_measurement_id
+VITE_FIREBASE_API_KEY=api_key
+VITE_FIREBASE_AUTH_DOMAIN=projet.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=projet
+VITE_FIREBASE_STORAGE_BUCKET=projet.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=projet_messaging_sender_id
+VITE_FIREBASE_APP_ID=projet_app_id
+VITE_FIREBASE_MEASUREMENT_ID=projet_measurement_id
 ```
 
 
