@@ -1,0 +1,62 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 10px 10px 0 0;
+  z-index: 1000;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+  pointer-events: auto;
+}
+
+.scroll-to-top {
+  background-color: #ffcb05;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
+.scroll-to-top,
+.website-button {
+  margin: 0 10px; /* Ajout de marges pour espacer les boutons */
+}
+body {
+  margin-bottom: 80px; /* Ajout d'espace pour éviter que le contenu touche le footer */
+}
+
+.scroll-to-top:hover {
+  background-color: #e6b800;
+}
+
+.scroll-to-top:active {
+  transform: scale(0.95);
+}
+
+.website-button {
+  background-color: #ffcb05;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.website-button:hover {
+  background-color: #e6b800;
+}
+
+.website-button:active {
+  transform: scale(0.95);
+}

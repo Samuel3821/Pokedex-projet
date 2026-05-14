@@ -1,0 +1,20 @@
+.scores-container {
+    width: 25%;
+    margin: 0 auto; /* Centrer le tableau horizontalement */
+    border: 3px solid #cee100; /* Ajouter une bordure */
+}
+
+.scores-container ol {
+    list-style-type: none; /* Enlever les numéros de la liste */
+    padding-left: 0; /* Enlever le padding par défaut */
+    width: 100%; /* Prendre toute la largeur du conteneur */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer le contenu horizontalement */
+}
+
+.scores-container li {
+    display: flex;
+    justify-content: space-between; /* Espacer le nom et le score */
+    padding: 5px 0; /* Ajouter un peu d'espace entre les éléments */
+}

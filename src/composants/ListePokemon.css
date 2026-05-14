@@ -1,0 +1,40 @@
+.image{
+    width: 100px;
+    height: auto;
+}
+.tableau td{
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+}
+.tableau {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed; /*Ne bouge pas */
+    font-size: 20px;
+    font-style:oblique;
+}
+.alphabet-filter {
+    margin-bottom: 20px;
+}
+
+.alphabet-filter button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.alphabet-filter button:hover {
+    background-color: #e6b800; /* Fond jaune foncé au survol */
+  }
+  .alphabet-filter button:active {
+    transform: scale(0.95); /* Réduction légère à l'appui */
+  }
+  .content button:hover{
+    background-color: #e6b800; /* Fond jaune foncé au survol */
+  }
+  .content button:active{
+    transform: scale(0.95); /* Réduction légère à l'appui */
+  }
